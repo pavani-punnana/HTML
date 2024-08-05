@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        main{background-color: blue;
+        width: 200px;
+    border: 15px;
+  padding: 20px;
+   margin: 20px;
+   overflow: scroll;
+}
+    </style>
+    <title>Overflow Properties Example</title>
+    
+</head>
+<body>
+    <header>
+        <h1>Overflow Properties Example</h1>
+    </header>
+
+    <main>
+        <section class="overflow-auto">
+            <h2>Auto Overflow</h2>
+            <p>This section will show a scrollbar when the content overflows. Resize the browser window to see the effect.</p>
+            <div class="content">
+                <p>Content goes here...</p>
+                <p>Content goes here...</p>
+                <p>Content goes here...</p>
+                
+            </div>
+        </section>
+
+        <section class="overflow-scroll">
+            <h2>Scroll Overflow</h2>
+            <p>This section will always show a scrollbar, regardless of the content length.</p>
+            <div class="content">
+                <p>Content goes here...</p>
+                <p>Content goes here...</p>
+                <p>Content goes here...</p>
+                
+            </div>
+        </section>
+
+        <section class="overflow-hidden">
+            <h2>Hidden Overflow</h2>
+            <p>This section will hide any content that overflows.</p>
+            <div class="content">
+                <p>Content goes here...</p>
+                <p>Content goes here...</p>
+                <p>Content goes here...</p>
+                
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Overflow Properties Example</p>
+    </footer>
+</body>
+</html>
