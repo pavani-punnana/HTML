@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Page with Scroll Margin</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 2px;
+            padding: 2px;
+            height: 100vh;
+        }
+        header {
+            background-color: #15a4c1;
+            color: rgb(190, 147, 147);
+            text-align: center;
+            padding: 1rem;
+        }
+        main {
+            flex: 1;
+            overflow-y: scroll; /* Enables vertical scrolling */
+            padding: 20px;
+            background-color: #d58b0a;
+            scroll-padding-top: 20px; /* Adds padding to the top of the scrollable area */
+        }
+        footer {
+            background-color: #bb0ca7;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+        }
+        .content {
+            margin-bottom: 50px; /* Margin to space out sections */
+            scroll-margin-top: 50px; /* Adds top margin to adjust scroll position */
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Web Page with Scroll Margin</h1>
+</header>
+
+<main>
+    <section class="content" id="section1">
+        <h2>Section 1</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean luctus urna vitae nulla suscipit, at vehicula ipsum bibendum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Proin nec enim vel est feugiat sollicitudin. Integer ac lacus ac libero cursus hendrerit. Nullam suscipit magna ut velit bibendum, id sagittis ex vestibulum.</p>
+    </section>
+
+    <section class="content" id="section2">
+        <h2>Section 2</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean luctus urna vitae nulla suscipit, at vehicula ipsum bibendum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Proin nec enim vel est feugiat sollicitudin. Integer ac lacus ac libero cursus hendrerit. Nullam suscipit magna ut velit bibendum, id sagittis ex vestibulum.</p>
+    </section>
+
+    <section class="content" id="section3">
+        <h2>Section 3</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean luctus urna vitae nulla suscipit, at vehicula ipsum bibendum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Proin nec enim vel est feugiat sollicitudin. Integer ac lacus ac libero cursus hendrerit. Nullam suscipit magna ut velit bibendum, id sagittis ex vestibulum.</p>
+    </section>
+
+    <section class="content" id="section4">
+        <h2>Section 4</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean luctus urna vitae nulla suscipit, at vehicula ipsum bibendum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Proin nec enim vel est feugiat sollicitudin. Integer ac lacus ac libero cursus hendrerit. Nullam suscipit magna ut velit bibendum, id sagittis ex vestibulum.</p>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2024 My Web Page</p>
+</footer>
+
+</body>
+</html>
